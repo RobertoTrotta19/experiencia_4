@@ -1,0 +1,43 @@
+html, body{
+	margin: 0;
+}
+
+#background{
+	background-image: url(bg.jpeg);
+	height: 500px;
+	color: white;
+}
+
+.logo{
+	height: 50px;
+	width: 150px;
+
+}
+
+.logo img{
+	width: 100%;
+}
+
+.navbar{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+
+}
+
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+.navbar ul li{
+	float: right;
+	padding: 10px 30px;
+	
+	
+
+#middle{
+
