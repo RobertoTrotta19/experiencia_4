@@ -66,13 +66,13 @@ html, body{
 }
 
 .up_buttons button{
-	background-color: #0089ff;
+	background-color: #08599e;
 	border-style: solid;
-	border-color: #00ff1f;
+	border-color: #ffffff;
 	border-radius: 5px;
 	color: white;
 	font-family: arial;
-	font-size: 15px;
+	font-size: 20px;
 	padding: 10px;
     margin: 10px;
 }	
@@ -89,6 +89,7 @@ html, body{
 
 #second p{
 	text-align: center;
+	font-style: italic;
 }
 
 #second img{
@@ -96,4 +97,108 @@ html, body{
 	width: 100%;
 }
 
-#third
+#third{
+	background-color:#80808024;
+	margin-top: 1px;
+	border-style: solid;
+	border-color: #d2d2d2;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+
+#third h2{
+	margin: 0;
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+#third .texto{
+	text-align: center;
+	font-style: italic;
+
+}
+
+#third .button{
+	text-align: center;
+}
+
+#third .button button{
+	text-align: center;	
+	background-color: #08599e;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 5px;
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+	padding: 10px;
+    margin: 10px;
+}
+
+#third .subtitulo{
+	text-align: center;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+#ff{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 30px;
+}
+
+#fourth{
+	display: inline-block;
+	float: left;
+	text-align: left;
+	height: 250px;
+	position: relative;
+	padding-left: 200px;
+}
+
+#fifth{
+	display: inline-block;
+	float: right;
+	height: 250px;
+	position: relative;
+	font-style: italic;
+	padding-right: 300px;
+	text-align: left;
+}
+
+#six{
+	clear: left;
+}
+
+.bold{
+	font-weight: bolder;
+}
+
+#six{
+	background-color: #1f1e1e;
+	color: #d8caca;
+	height: 100px;
+	border-style: solid;
+	border-color: gray;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+
+}
+
+#six div{
+	position: relative;
+
+    left: 200px;
+    top: 20px;
+    font-style: italic;
+
+}
