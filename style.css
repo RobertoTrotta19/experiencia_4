@@ -3,7 +3,7 @@ html, body{
 }
 
 #all{
-	font-family: arial;	
+	font-family: 'Montserrat', sans-serif;	
 }
 
 #first{
@@ -61,6 +61,8 @@ html, body{
 
 .up_buttons{
 	text-align: center;
+	    padding-top: 20px;
+
 
 
 }
@@ -68,7 +70,7 @@ html, body{
 .up_buttons button{
 	background-color: #08599e;
 	border-style: solid;
-	border-color: #ffffff;
+	border-color: #08599e;
 	border-radius: 5px;
 	color: white;
 	font-family: arial;
@@ -129,7 +131,7 @@ html, body{
 	text-align: center;	
 	background-color: #08599e;
 	border-style: solid;
-	border-color: #000000;
+	border-color: #08599e;
 	border-radius: 5px;
 	color: white;
 	font-family: arial;
@@ -168,9 +170,12 @@ html, body{
 	float: right;
 	height: 250px;
 	position: relative;
-	font-style: italic;
 	padding-right: 300px;
 	text-align: left;
+}
+
+#fifth p{
+	font-style: italic;
 }
 
 #six{
