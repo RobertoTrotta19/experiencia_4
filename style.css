@@ -2,7 +2,11 @@ html, body{
 	margin: 0;
 }
 
-#background{
+#all{
+	font-family: arial;	
+}
+
+#first{
 	background-image: url(bg.jpeg);
 	height: 500px;
 	color: white;
@@ -11,6 +15,12 @@ html, body{
 .logo{
 	height: 50px;
 	width: 150px;
+	position: relative;
+	right: 0px;
+    left: 90px;
+    top: 40px;
+    float: left;
+
 
 }
 
@@ -19,9 +29,10 @@ html, body{
 }
 
 .navbar{
-	position: absolute;
-	right: 0px;
-	top: 0px;
+	position: relative;
+	right: 90px;
+	top: 40px;
+	float: right;
 
 }
 
@@ -36,8 +47,53 @@ html, body{
 .navbar ul li{
 	float: right;
 	padding: 10px 30px;
+	}
 	
-	
+.titulo{
+	text-align: center;
+    padding-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 150px;
 
-#middle{
 
+}
+
+.up_buttons{
+	text-align: center;
+
+
+}
+
+.up_buttons button{
+	background-color: #0089ff;
+	border-style: solid;
+	border-color: #00ff1f;
+	border-radius: 5px;
+	color: white;
+	font-family: arial;
+	font-size: 15px;
+	padding: 10px;
+    margin: 10px;
+}	
+
+.subtitulo{
+	text-align: center;
+}
+
+#second h2{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+#second p{
+	text-align: center;
+}
+
+#second img{
+	height: 100%;
+	width: 100%;
+}
+
+#third
